@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: TestLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5630081530521639870
+  m_GuidHigh: 6996838258680831894
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5419531419135114470
+      m_GuidHigh: 4893751277487258039
+    m_SerializedTextureGuid:
+      m_GuidLow: 1518892835200305356
+      m_GuidHigh: 6649219596478462683
+    m_Size: {x: 0.13455056, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: car
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5536125104932902958
+      m_GuidHigh: 17173221400518781059
+    m_SerializedTextureGuid:
+      m_GuidLow: 3757150422559840697
+      m_GuidHigh: 18094795718165624121
+    m_Size: {x: 0.14850362, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: girl
+    m_Texture: {fileID: 0}
