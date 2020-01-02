@@ -8,11 +8,11 @@ public class DataBase : MonoBehaviour
     public static DataBase DB = null;
     public GameObject[] models;
     public string[] names;
-    public string[] descriptions;
+    // public string[] descriptions;
 
     public bool rotateHorizontal;
     public bool rotateVertical;
-    public bool zoomAble;
+    // public bool zoomAble;
     public bool rotateFix;
     public float fixSmooth;
     public float fixDelay;
@@ -35,10 +35,10 @@ public class DataBase : MonoBehaviour
     {
         return models[key2index(key)];
     }
-    public string GetDescription(string key)
-    {
-        return descriptions[key2index(key)];
-    }
+    // public string GetDescription(string key)
+    // {
+    //     return descriptions[key2index(key)];
+    // }
 
 
     private int key2index(string key)
