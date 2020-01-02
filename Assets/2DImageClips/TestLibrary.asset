@@ -19,19 +19,29 @@ MonoBehaviour:
       m_GuidLow: 5419531419135114470
       m_GuidHigh: 4893751277487258039
     m_SerializedTextureGuid:
-      m_GuidLow: 1518892835200305356
-      m_GuidHigh: 6649219596478462683
-    m_Size: {x: 0.13455056, y: 0.1}
+      m_GuidLow: 14984666694997425510
+      m_GuidHigh: 1552780597536688344
+    m_Size: {x: 0.76, y: 0.9037159}
     m_SpecifySize: 1
-    m_Name: car
+    m_Name: gun
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5536125104932902958
-      m_GuidHigh: 17173221400518781059
+      m_GuidLow: 5684523992774856328
+      m_GuidHigh: 11056887693747546022
     m_SerializedTextureGuid:
-      m_GuidLow: 3757150422559840697
-      m_GuidHigh: 18094795718165624121
-    m_Size: {x: 0.14850362, y: 0.1}
+      m_GuidLow: 8297008594093602123
+      m_GuidHigh: 9559352096180618489
+    m_Size: {x: 0.050555553, y: 0.08}
     m_SpecifySize: 1
     m_Name: girl
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5037429486791722628
+      m_GuidHigh: 15347763619522867887
+    m_SerializedTextureGuid:
+      m_GuidLow: 13417429516654412375
+      m_GuidHigh: 6260556949685527882
+    m_Size: {x: 0.21980903, y: 0.275}
+    m_SpecifySize: 1
+    m_Name: car
     m_Texture: {fileID: 0}

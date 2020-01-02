@@ -19,10 +19,18 @@ public class TrackedImageInfoManager : MonoBehaviour
     {
         foreach (var trackedImage in eventArgs.added)
         {
-            // trackedImage.destroyOnRemoval = true;
+            trackedImage.destroyOnRemoval = true;
             Debug.Log(trackedImage.referenceImage.name);
             GameObject instante = Instantiate(DataBase.DB.Get3DModel(trackedImage.referenceImage.name), trackedImage.transform) as GameObject;
             instante.AddComponent<ARObjRotation>();
+        }
+        foreach (var trackedImage in eventArgs.updated)
+        {
+
+        }
+        foreach (var trackedImage in eventArgs.removed)
+        {
+            Debug.Log("REMOVED");
         }
     }
     void OnEnable()
@@ -65,14 +73,10 @@ class ARObjRotation : MonoBehaviour
         isFix = DataBase.DB.rotateFix;
         fixSmooth = DataBase.DB.fixSmooth;
         fixDelay = DataBase.DB.fixDelay;
-        Debug.Log(isX);
-        Debug.Log(isY);
-        Debug.Log(isFix);
     }
 
     private void OnMouseDrag()
     {
-        Debug.Log("Drag");
         isDown = true;
         StopAllCoroutines();
 
