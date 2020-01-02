@@ -13,3 +13,5 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: 4452afbff28577e4f947a9eaf3ed66a0,
       type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b652d251346b6be4f898fe6d81cc9689,
+      type: 2}
