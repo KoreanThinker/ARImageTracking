@@ -1,6 +1,7 @@
 # ARImageTracking
-UNITY 3D를 이용하여 2D 이미지 스캔시 3D 오브젝트로 출력
-When you scan 2dImage clip this program show 3d object
+- UNITY 3D를 이용하여 2D 이미지 스캔시 3D 오브젝트로 출력
+- When you scan 2dImage clip this program show 3d object
+- ENG, KOR support
 
 # 기능들 (Functions)
 
