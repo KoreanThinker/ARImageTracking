@@ -31,7 +31,7 @@
     - 3D 오브젝트 등록 가능 (prefab이여야함)
     - names는 2D 이미지 클립과 맞춰야함
 
-# Menual (ENG)
+# Manual (ENG)
 - 2D image clip append to **Assets -> 2DImageClips -> TestLibrary.asset**
     - **Warning**  Enter the name accurately because the 3D object is printed with the key
     - [Reference](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@2.1/manual/image-tracking.html)
